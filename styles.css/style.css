@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section 1 css star */
+.container{
+background-color: #d5bca9;
+height: 70vh;
+margin: 0;
+width: 100%;
+position: relative;
+}
+/* navbar CSS Start */
+.navbar{
+width: 80%;
+margin: 30px auto 0 auto;
+text-align: center;
+}
+.navbar a{
+text-decoration: none;
+padding: 5px 10px;
+background-color: #5079ab ;
+border: 2px solid #5079ab;
+border-radius: 5px;
+margin-right: 40px;
+text-align: right;
+font-size: 1.2rem;
+color: #f8f6f9;
+}
+a:hover{
+color: azure;
+background-color: black;
+}
+.navbar:last-child {
+    margin-right: 0;
+}
+input{
+    width: 20%;
+    font-size: 1.2rem;
+    color:#f8f6f9;
+    background-color:#5079ab;
+    padding: 5px 10px;
+    border: 2px solid #5079ab;
+    border-radius: 5px;
+}
+input:focus{
+    border: none;
+    background-color: black;
+    color: azure;
+}
+.navbar,
+.header-content{
+    position: absolute;
+    top: 30px;
+}
+/* headerContent Start */
+.headerContent{
+    position: absolute;
+    margin: 100px auto 0 auto;
+    width: 55%;
+    padding: 50px 80px;
+
+    
+}
+.headerContent>h6{
+    color:#5079ab ;
+    font-size: 1.2rem;
+    font: 900;
+}
+.headerContent>h1{
+    margin-top: 10px;
+    color:#04295e;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.headerContent>p{
+    margin-top: 10px;
+    color: #404653;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.buttons{
+    margin-top: 20px;
+    
+    }
+.left-button{
+    background-color: #ee5a4e;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.right-button{
+    color:#04295e;
+    border:2px solid #ee5a4e;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+.buttons{
+    margin-top: 20px;
+    cursor: pointer;
+    }
+.left-button{
+    background-color: #ee5a4e;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+.left-button:hover{
+    background-color: #5079ab;
+    color: #f8f6f9;
+}
+.right-button{
+    color:#04295e;
+    border:2px solid #ee5a4e;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+.right-button:hover{
+    background-color: #5079ab;
+    color: #f8f6f9;
+    border:2px solid #5079ab;
+}
+.buttons{
+    margin-top: 20px;
+    }
+.left-button{
+    background-color: #ee5a4e;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.right-button{
+    color:#04295e;
+    border:2px solid #ee5a4e;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+}
+/* section 2 css star */
+#sect2Heading{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 5px auto 10px auto;
+    width: 20%;
+}
+.projects{
+height: 70vh;
+width: 80%;
+margin: 20px auto 0 auto;
+display: flex;
+justify-content: space-between;
+}
+.project1{
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2); ;
+}
+.project1>img{
+    /* border:2px solid #5079ab; */
+    border-radius: 10px;
+}
+.project1>h3{
+padding-top: 3px;
+text-align: center;
+}
+.project1>p{
+    padding: 10px 20px;
+    text-align: center;
+    text-align: justify;
+}
+/* section3 css start */
+.footer {
+    background-color: #333;
+    color: #fff; 
+    padding: 30px 0;
+    width: 100%;
+}
+
+.footerSection{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col {
+    width: 30%;
+    
+}
+.col>ul>li{
+    list-style-type: none;
+}
+.col>ul>li>a{
+text-decoration: none;
+color: #f8f6f9;
+}
+#symbol1>a::before{
+    content: "🏠";
+}
+#symbol2>a::before{
+    content: "📞";
+}
+#symbol3>a::before{
+    content: "✉️";
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
